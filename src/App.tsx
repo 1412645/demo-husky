@@ -5,7 +5,7 @@ import { ReactComponent as LogoApp } from './logo.svg'
 
 function App() {
   let a = 100
-  console.log('a fsffs: ', a)
+  console.log('a: ', a)
   return (
     <div className="App w-[200px]">
       <header className="App-header">
