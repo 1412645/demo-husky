@@ -68,7 +68,8 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "eslint", "prettier"
+      "eslint",
+      "prettier"
     ]
   }
 }
