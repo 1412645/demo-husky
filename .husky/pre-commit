@@ -18,4 +18,4 @@ npm run type-check ||
 )
 
 # Check format code
-npm run format && git add -A .
+#npm run format && git add -A .
