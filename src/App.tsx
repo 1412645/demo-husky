@@ -1,14 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './styles/App.css'
+import { ReactComponent as LogoApp } from './logo.svg'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-[200px]">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <LogoApp />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit <code>src/App.tsx</code> and save to reload.sd
         </p>
         <a
           className="App-link"
@@ -20,7 +22,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
