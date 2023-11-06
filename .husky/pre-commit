@@ -1,8 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm install lint-staged
-
 # Check ESLint Standards
 npm run lint ||
 (
